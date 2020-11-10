@@ -1,4 +1,15 @@
+[master]
+172.16.202.130 node_name=k8s-master-1
+
+[node]
+#172.16.202.131 node_name=k8s-node1
+
+
 [k8s:children]
 master
-nodes
+node
+
 [etcd]
+172.16.202.130
+172.16.202.131
+172.16.202.132

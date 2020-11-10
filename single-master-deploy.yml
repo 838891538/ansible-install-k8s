@@ -3,7 +3,7 @@
   gather_facts: false
   hosts:
     - k8s
-    - etcd
+    #- etcd
   roles:
     - common
   tags: common
