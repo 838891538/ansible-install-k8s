@@ -10,3 +10,4 @@
 git clone https://github.com/838891538/ansible-install-k8s.git
 cd ansible-install-k8s
 ```
+下载软件包并解压到/usr/local/src目录下
