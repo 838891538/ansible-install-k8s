@@ -15,3 +15,10 @@
     - tls
   tags:
     - tls
+
+- name: 2.部署docker
+  gather_facts: false
+  hosts: k8s
+  roles:
+    - docker
+  tags: docker
