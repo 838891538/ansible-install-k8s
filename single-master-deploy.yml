@@ -3,7 +3,15 @@
   gather_facts: false
   hosts:
     - k8s
-    #- etcd
+    - etcd
   roles:
     - common
   tags: common
+
+- name: 1.自签证书
+  gather_facts: false
+  hosts: localhost
+  roles:
+    - tls
+  tags:
+    - tls
