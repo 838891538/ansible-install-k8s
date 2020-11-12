@@ -22,3 +22,12 @@
   roles:
     - docker
   tags: docker
+
+- name: 3.部署etcd集群
+  gather_facts: false
+  hosts: etcd
+  roles:
+    - etcd
+  tags: etcd
+
+
